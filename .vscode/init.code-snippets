@@ -26,7 +26,11 @@
 			"// \n",
 			"// Created by Ming Li at $CURRENT_MONTH/$CURRENT_DATE/$CURRENT_YEAR, $CURRENT_DAY_NAME",
 			"// Contact: ming.li2@columbia.edu",
-			"// Linkedin: www.linkedin.com/in/leemingee"
+			"// Linkedin: www.linkedin.com/in/leemingee \n",
+			"#include <iostream>",
+			"using std::cout;",
+			"using std::cin;",
+			"using std::endl;"
         ],
         "description": "initial for cpp code, using columbia email"
     }
