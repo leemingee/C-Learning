@@ -1,2 +1,9 @@
 Reference/*
-./GOland2018.3/*
+!*.c
+!*.h
+!*.cpp
+!*.cc
+!*.json
+!*/.vscode
+!Makefile
+*.exe
