@@ -10,7 +10,6 @@
 using std::cout;
 using std::cin;
 using std::endl;
-using namespace std;
 
 int main()
 {
@@ -20,7 +19,7 @@ int main()
     long long n_llong = LLONG_MAX;
 
     // sizeof operator yields the size of type or of variable
-    cout << "int is " << sizeof (int) << " bytes" << endl;
+    cout << "int is " << sizeof (int) << " bytes" << endl; // if sizeof an type, then need to add parentness to this type.
     cout << "short is " << sizeof n_short << " bytes" << endl;
     cout << "long is " << sizeof n_long << " bytes" << endl;
     cout << "long long is " << sizeof n_llong << " bytes" << endl;
@@ -30,5 +29,7 @@ int main()
     cout << "short " << n_short << endl;
     cout << "long " << n_long << endl;
     cout << "llong " << n_llong << endl;
-    
+    cout << endl;
+    cout << "Bits per byte =  "  << CHAR_BIT << endl;
+    return 0;
 }
