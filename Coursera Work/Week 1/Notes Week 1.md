@@ -45,4 +45,15 @@ new is a memory management, and the memory it's getting is heap based on memory.
 "When you are running a program in which, for example you have main, and you're allocating variables. You're allocate them off the stack. So when you declare a simple int, the head of main, that memory allocation is automatic. And the allocation's automatic, it comes off what you call the stack. However, when you don't know what kind of memory you need yet, it has to be part of a calculation at runtime, then we use an alternate memory allocation strategy. And that's called memory allocation off the heap. And there's separate memory, a global chunk of memory that can be used to take memory off the heap, and return memory to the heap. And there in C, if you remember, there was a term or a standard function called malloc_( ). And there was also a function called free. These are replaced by new, and delete." Really important to understand.
 
 中文的教程：[内存管理](https://chenqx.github.io/2014/09/25/Cpp-Memory-Management/)    
+
+另外一个专题：[link](http://cplusplus.wikidot.com/cn:memory-management)
 640K ought to be enough for everybody — Bill Gates 1981
+
+there is more implicit information available to the c++ compilerin using these new operators.
+
+# 1.10 Generics
+Genercis in c++: programming using templates   
+influenced by Alex Stempanov   
+the grand notations can be applied to everything   
+
+lisp: a typical example where sacrifice some amount of low level efficiency.
