@@ -1,5 +1,9 @@
 # Notes Week 1
 
+todo:
+relisten about the 1.10 generics
+
+
 https://github.com/niaokedaoren/Coursera_c2cpp
 
 ## 1.1 Overview and Course Organization
@@ -36,6 +40,8 @@ So cout has this syntax that uses this operator. This operator in the C communit
 backslash, \, is an escape 
 
 
+About the `inline` decorator [Link](https://blog.csdn.net/zqixiao_09/article/details/50877383)
+
 # 1.6 C++ advantages
 However, when you're writing longer programs, it's useful to have your declaration nearer to where it's used. That just makes the program a little more readable. So, if the code is a small amount of code, I would say, stay with the idea of putting all of your declarations at the head of the block, and common thing in right there.
 
@@ -56,4 +62,23 @@ Genercis in c++: programming using templates
 influenced by Alex Stempanov   
 the grand notations can be applied to everything   
 
-lisp: a typical example where sacrifice some amount of low level efficiency.
+lisp: a typical example where sacrifice some amount of low level efficiency. And want to make sure of this generic part for C++ language.
+
+Stepanov while at HP in late 80's developed a set of generic libraries using a constuct called a template. STL is largely based on this work.
+
+```
+# the template, where we get a new keyword template
+
+template <class T>
+inline void swap(T&d, T&s)
+{
+    T temp = d;
+    d = s;
+    s = temp;
+}
+```
+take a normal functiona and:   
+1. add template <class T>, as T is the id
+
+
+

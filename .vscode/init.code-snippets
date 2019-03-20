@@ -28,9 +28,7 @@
 			"// Contact: ming.li2@columbia.edu",
 			"// Linkedin: www.linkedin.com/in/leemingee \n",
 			"#include <iostream>",
-			"using std::cout;",
-			"using std::cin;",
-			"using std::endl;"
+			"using namespace std;"
         ],
         "description": "initial for cpp code, using columbia email"
     }

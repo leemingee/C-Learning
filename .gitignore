@@ -7,3 +7,4 @@ Reference/*
 !*/.vscode
 !Makefile
 *.exe
+*.pdf
